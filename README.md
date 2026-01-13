@@ -28,3 +28,34 @@ To demonstrate the generalizability of the proposed method, we validated GFE-TVC
 REASSEMBLE Dataset link:
 JIGSAWS Dataset link:
 NursBot Dataset link:(It has been incorporated into this repo)
+
+## Getting Started
+
+In the following, we provide example scripts for Feature Extraction, Clustering and Postpromoting.
+
+### Feature Extraction
+
+The following is a example of unsupervised skill discovery on `libero_object` dataset.
+
+```bash
+cd lotus/skill_learning
+```
+
+### Clustering
+
+The following is a example of unsupervised skill discovery on `libero_object` dataset.
+
+```bash
+cd lotus/skill_learning
+```
+
+
+### Postpromoting
+
+The following is a example of unsupervised skill discovery on `libero_object` dataset.
+
+```bash
+cd lotus/skill_learning
+```
+
+
