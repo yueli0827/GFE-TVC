@@ -35,27 +35,28 @@ In the following, we provide example scripts for Feature Extraction, Clustering 
 
 ### Feature Extraction
 
-The following is a example of unsupervised skill discovery on `libero_object` dataset.
+The following is a example of feature extraction on `REASSEMBLE` dataset.
 
 ```bash
-cd lotus/skill_learning
+cd feature extraction/
 ```
 
 ### Clustering
 
-The following is a example of unsupervised skill discovery on `libero_object` dataset.
+The following is a example of spectral clustering on `JIGSAWS` dataset.
 
 ```bash
-cd lotus/skill_learning
+cd clustering/
 ```
 
 
 ### Postpromoting
 
-The following is a example of unsupervised skill discovery on `libero_object` dataset.
+The following is a example of postpromoting on `NursBot` dataset.
 
 ```bash
-cd lotus/skill_learning
+cd postpromoting/
 ```
+## Acknowledgement
 
-
+The clustering component of GFE-TVC is based on [Spectral Clustering](https://github.com/pythonnet/pythonnet), [GMM](https://github.com/pythonnet/pythonnet), [Graph Clustering](https://github.com/pythonnet/pythonnet), [Hierarchical Clustering](https://github.com/pythonnet/pythonnet), and [DeepDPM](https://github.com/BGU-CS-VIL/DeepDPM). We also conducted performance validation of GFE-TVC using three datasets(REASSEMBLE, JIGSAWS, and NursBot). Many thanks to their wonderful work!
