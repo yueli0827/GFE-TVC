@@ -25,9 +25,9 @@ pip install -e .
 
 To demonstrate the generalizability of the proposed method, we validated GFE-TVC on three publicly available datasets.
 
-REASSEMBLE Dataset link:
-JIGSAWS Dataset link:
-NursBot Dataset link:(It has been incorporated into this repo)
+[REASSEMBLE Dataset](https://tuwien-asl.github.io/REASSEMBLE_page/)
+[JIGSAWS Dataset](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/)
+NursBot Dataset has been incorporated into this repo.
 
 ## Getting Started
 
@@ -59,4 +59,4 @@ cd postpromoting/
 ```
 ## Acknowledgement
 
-The clustering component of GFE-TVC is based on [Spectral Clustering](https://github.com/pythonnet/pythonnet), [GMM](https://github.com/pythonnet/pythonnet), [Graph Clustering](https://github.com/pythonnet/pythonnet), [Hierarchical Clustering](https://github.com/pythonnet/pythonnet), and [DeepDPM](https://github.com/BGU-CS-VIL/DeepDPM). We also conducted performance validation of GFE-TVC using three datasets(REASSEMBLE, JIGSAWS, and NursBot). Many thanks to their wonderful work!
+The clustering component of GFE-TVC is based on [Spectral Clustering](https://github.com/xjnine/GBSC), GMM, K-means, [Graph Clustering](https://github.com/gayanku/scgc), [Hierarchical Clustering](https://github.com/wazenmai/hc-smoe), and [DeepDPM](https://github.com/BGU-CS-VIL/DeepDPM). We also conducted performance validation of GFE-TVC using three datasets(REASSEMBLE, JIGSAWS, and NursBot). Many thanks to their wonderful work!
