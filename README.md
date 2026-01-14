@@ -41,7 +41,7 @@ In the following, we provide example scripts for Feature Extraction, Clustering 
 
 ### Feature Extraction
 
-The following is a example of feature extraction on `REASSEMBLE` dataset.
+The following is a example of feature extraction.
 
 ```bash
 cd feature extraction/
@@ -49,16 +49,17 @@ cd feature extraction/
 
 ### Clustering
 
-The following is a example of spectral clustering on `JIGSAWS` dataset.
+The following is a example of spectral clustering.
 
 ```bash
 cd clustering/
+python spectral_clustering.py --input_path YOUR_FEATURE_DIR --out_dir YOUR_OUTPUT_DIR --k_mode deepdpm --k_min 2 --k_max 20
 ```
 
 
 ### Postpromoting
 
-The following is a example of postpromoting on `NursBot` dataset.
+The following is a example of postpromoting.
 
 ```bash
 cd postpromoting/
